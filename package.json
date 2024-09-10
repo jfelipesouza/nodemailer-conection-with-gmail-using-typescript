@@ -1,0 +1,28 @@
+{
+  "name": "seminarios",
+  "version": "1.0.0",
+  "main": "escolhaAleatoria.js",
+  "scripts": {
+    "dev": "tsx watch --no-cache --env-file .env src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@react-email/render": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^22.5.4",
+    "@types/nodemailer": "^6.4.15",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2"
+  }
+}
